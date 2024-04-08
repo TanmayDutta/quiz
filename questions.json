@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the purpose of the 'module.exports' object in Node.js?",
+        "options": [
+            "To define variables within a module",
+            "To export functions and objects from a module",
+            "To import modules from other files",
+            "To remove modules from the global scope"
+        ],
+        "answer": "To export functions and objects from a module"
+    },
+    {
+        "question": "Which method is used to asynchronously read the contents of a file in Node.js?",
+        "options": [
+            "fs.readFileSync()",
+            "fs.writeFile()",
+            "fs.readFile()",
+            "fs.appendFile()"
+        ],
+        "answer": "fs.readFile()"
+    },
+    {
+        "question": "What is the purpose of 'npm' in Node.js?",
+        "options": [
+            "To manage Node.js versions",
+            "To create web servers",
+            "To install and manage packages/modules",
+            "To execute JavaScript code"
+        ],
+        "answer": "To install and manage packages/modules"
+    },
+    {
+        "question": "What does the 'process' object provide in Node.js?",
+        "options": [
+            "Information about the current process",
+            "Information about the current file system",
+            "Information about the current network connections",
+            "Information about the current hardware"
+        ],
+        "answer": "Information about the current process"
+    },
+    {
+        "question": "Which method is used to handle errors in asynchronous operations in Node.js?",
+        "options": [
+            "try-catch block",
+            "fs.exists()",
+            "EventEmitter",
+            "Callback functions"
+        ],
+        "answer": "Callback functions"
+    },
+    {
+        "question": "What is the purpose of the 'EventEmitter' class in Node.js?",
+        "options": [
+            "To handle file I/O operations",
+            "To emit events that can be listened to and handled",
+            "To manage HTTP requests",
+            "To manipulate the DOM in web applications"
+        ],
+        "answer": "To emit events that can be listened to and handled"
+    },
+    {
+        "question": "Which of the following is NOT a core module in Node.js?",
+        "options": [
+            "fs",
+            "http",
+            "path",
+            "express"
+        ],
+        "answer": "express"
+    },
+    {
+        "question": "What is the purpose of the 'Buffer' class in Node.js?",
+        "options": [
+            "To read user input from the command line",
+            "To handle binary data",
+            "To manage file permissions",
+            "To control the event loop"
+        ],
+        "answer": "To handle binary data"
+    },
+    {
+        "question": "What is the purpose of the 'require()' function in Node.js?",
+        "options": [
+            "To define custom modules",
+            "To import built-in modules or modules installed via npm",
+            "To handle HTTP requests",
+            "To create a new instance of EventEmitter"
+        ],
+        "answer": "To import built-in modules or modules installed via npm"
+    },
+    {
+        "question": "Which of the following is true about the 'setTimeout()' function in Node.js?",
+        "options": [
+            "It waits for a specified number of seconds and then executes a callback function",
+            "It is used to set the interval for event loop execution",
+            "It is a synchronous function",
+            "It is used to delay the execution of code asynchronously"
+        ],
+        "answer": "It is used to delay the execution of code asynchronously"
+    }
+]
